@@ -1,0 +1,3428 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Alvera Consultancy | Study, Work & Settle Abroad — Karachi, Pakistan
+    </title>
+    <meta
+      name="description"
+      content="Alvera Consultancy — free & supported university education in Italy, 100% scholarships (Spain, Korea GKS), MBBS/MD admissions, Canada Express Entry & PNP, Germany Chancenkarte & Ausbildung, Sweden, New Zealand, USA EB2-NIW and business immigration to Europe. Free counseling in Karachi."
+    />
+    <meta name="theme-color" content="#0E4D5C" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* ================= ROOT / RESET ================= */
+      :root {
+        --teal-950: #072b33;
+        --teal-900: #0b3d49;
+        --teal-800: #0e4d5c;
+        --teal-600: #13798a;
+        --teal-500: #17a2a6;
+        --gold: #c9a227;
+        --gold-2: #e3c15c;
+        --ink: #12232b;
+        --muted: #54686f;
+        --bg: #fff;
+        --bg-soft: #f2fafa;
+        --line: #e3edee;
+        --radius: 16px;
+        --shadow: 0 10px 30px rgba(11, 61, 73, 0.1);
+        --head: "Poppins", sans-serif;
+        --body: "Inter", sans-serif;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        font-family: var(--body);
+        color: var(--ink);
+        background: var(--bg);
+        line-height: 1.65;
+        font-size: 16px;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      ul {
+        list-style: none;
+      }
+      section[id] {
+        scroll-margin-top: 92px;
+      }
+      .container {
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      .section {
+        padding: 84px 0;
+      }
+      .sec-head {
+        text-align: center;
+        max-width: 720px;
+        margin: 0 auto 48px;
+      }
+      .kicker {
+        display: inline-block;
+        font-family: var(--head);
+        font-weight: 600;
+        font-size: 0.78rem;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: var(--gold);
+        background: rgba(201, 162, 39, 0.12);
+        border: 1px solid rgba(201, 162, 39, 0.35);
+        padding: 6px 14px;
+        border-radius: 999px;
+        margin-bottom: 14px;
+      }
+      .sec-head h2 {
+        font-family: var(--head);
+        font-size: clamp(1.6rem, 3.4vw, 2.3rem);
+        color: var(--teal-900);
+        line-height: 1.25;
+      }
+      .sec-head p {
+        color: var(--muted);
+        margin-top: 10px;
+      }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        font-family: var(--head);
+        font-weight: 600;
+        font-size: 0.95rem;
+        padding: 13px 26px;
+        border-radius: 999px;
+        border: 2px solid transparent;
+        cursor: pointer;
+        transition: 0.25s;
+        white-space: nowrap;
+      }
+      .btn-sm {
+        padding: 9px 18px;
+        font-size: 0.85rem;
+      }
+      .btn-gold {
+        background: linear-gradient(135deg, var(--gold), var(--gold-2));
+        color: #241c02;
+        box-shadow: 0 8px 20px rgba(201, 162, 39, 0.35);
+      }
+      .btn-gold:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 12px 26px rgba(201, 162, 39, 0.45);
+      }
+      .btn-teal {
+        background: var(--teal-800);
+        color: #fff;
+      }
+      .btn-teal:hover {
+        background: var(--teal-600);
+        transform: translateY(-2px);
+      }
+      .btn-outline {
+        border-color: var(--teal-800);
+        color: var(--teal-800);
+        background: transparent;
+      }
+      .btn-outline:hover {
+        background: var(--teal-800);
+        color: #fff;
+      }
+      .btn-ghost {
+        border-color: rgba(255, 255, 255, 0.5);
+        color: #fff;
+        background: transparent;
+      }
+      .btn-ghost:hover {
+        background: #fff;
+        color: var(--teal-900);
+      }
+
+      /* ================= TOP BAR + HEADER ================= */
+      .topbar {
+        background: var(--teal-950);
+        color: #cfe6ea;
+        font-size: 0.82rem;
+      }
+      .topbar .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 14px;
+        min-height: 38px;
+        flex-wrap: wrap;
+      }
+      .topbar a {
+        color: #fff;
+        font-weight: 500;
+      }
+      .topbar a:hover {
+        color: var(--gold-2);
+      }
+      .tb-left {
+        display: flex;
+        gap: 18px;
+        flex-wrap: wrap;
+      }
+      header {
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        background: #fff;
+        box-shadow: 0 2px 14px rgba(11, 61, 73, 0.08);
+      }
+      .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 74px;
+        gap: 20px;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .brand svg {
+        width: 42px;
+        height: 42px;
+        flex: none;
+      }
+      .brand-name {
+        font-family: var(--head);
+        font-weight: 700;
+        font-size: 1.25rem;
+        color: var(--teal-900);
+        line-height: 1;
+      }
+      .brand-name span {
+        display: block;
+        font-size: 0.6rem;
+        letter-spacing: 0.32em;
+        color: var(--gold);
+        font-weight: 600;
+        margin-top: 3px;
+      }
+      .nav-links {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+      }
+      .nav-links a {
+        font-family: var(--head);
+        font-weight: 500;
+        font-size: 0.92rem;
+        color: var(--ink);
+        position: relative;
+        padding: 6px 0;
+      }
+      .nav-links a::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 0;
+        height: 2px;
+        background: var(--gold);
+        transition: 0.25s;
+      }
+      .nav-links a:hover::after,
+      .nav-links a.active::after {
+        width: 100%;
+      }
+      .nav-links a.active {
+        color: var(--teal-800);
+      }
+      .nav-cta {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .nav-toggle {
+        display: none;
+        background: none;
+        border: 0;
+        cursor: pointer;
+        padding: 6px;
+      }
+      .nav-toggle span {
+        display: block;
+        width: 24px;
+        height: 2.6px;
+        background: var(--teal-900);
+        margin: 5px 0;
+        border-radius: 3px;
+        transition: 0.3s;
+      }
+      .nav-toggle.open span:nth-child(1) {
+        transform: translateY(7.6px) rotate(45deg);
+      }
+      .nav-toggle.open span:nth-child(2) {
+        opacity: 0;
+      }
+      .nav-toggle.open span:nth-child(3) {
+        transform: translateY(-7.6px) rotate(-45deg);
+      }
+
+      /* ================= HERO ================= */
+      .hero {
+        position: relative;
+        color: #fff;
+        background: linear-gradient(
+          135deg,
+          var(--teal-950) 0%,
+          var(--teal-900) 45%,
+          var(--teal-800) 80%,
+          #12606f 100%
+        );
+        overflow: hidden;
+      }
+      .hero::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: radial-gradient(
+          rgba(255, 255, 255, 0.09) 1.4px,
+          transparent 1.4px
+        );
+        background-size: 30px 30px;
+        opacity: 0.5;
+      }
+      .hero .container {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1.05fr 0.95fr;
+        gap: 48px;
+        align-items: center;
+        padding-top: 90px;
+        padding-bottom: 130px;
+      }
+      .hero .kicker {
+        background: rgba(255, 255, 255, 0.1);
+        border-color: rgba(201, 162, 39, 0.5);
+      }
+      .hero h1 {
+        font-family: var(--head);
+        font-size: clamp(2rem, 4.6vw, 3.2rem);
+        line-height: 1.15;
+        font-weight: 800;
+      }
+      .hero h1 em {
+        font-style: normal;
+        color: var(--gold-2);
+      }
+      .hero p.lead {
+        margin: 18px 0 20px;
+        color: #d7e8ec;
+        max-width: 540px;
+      }
+      .chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 28px;
+      }
+      .chip {
+        font-size: 0.8rem;
+        font-weight: 600;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.22);
+        padding: 7px 14px;
+        border-radius: 999px;
+      }
+      .chip b {
+        color: var(--gold-2);
+      }
+      .hero-actions {
+        display: flex;
+        gap: 14px;
+        flex-wrap: wrap;
+      }
+      .hero-visual {
+        position: relative;
+      }
+      .path-card {
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        backdrop-filter: blur(6px);
+        border-radius: 20px;
+        padding: 26px;
+        box-shadow: 0 24px 50px rgba(0, 0, 0, 0.3);
+      }
+      .path-card .pc-label {
+        font-size: 0.72rem;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+        color: var(--gold-2);
+        font-weight: 600;
+        margin-bottom: 10px;
+      }
+      .path-card h3 {
+        font-family: var(--head);
+        font-size: 1.25rem;
+        min-height: 2.4em;
+      }
+      .path-card p {
+        color: #d7e8ec;
+        font-size: 0.92rem;
+        min-height: 3em;
+      }
+      .path-dots {
+        display: flex;
+        gap: 7px;
+        margin-top: 16px;
+      }
+      .path-dots span {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.25);
+        transition: 0.3s;
+      }
+      .path-dots span.on {
+        background: var(--gold-2);
+        transform: scale(1.25);
+      }
+      .float-chip {
+        position: absolute;
+        background: #fff;
+        color: var(--teal-900);
+        border-radius: 14px;
+        padding: 12px 16px;
+        box-shadow: 0 14px 34px rgba(0, 0, 0, 0.28);
+        font-size: 0.82rem;
+        font-weight: 600;
+        animation: bob 4.5s ease-in-out infinite;
+      }
+      .float-chip small {
+        display: block;
+        font-weight: 500;
+        color: var(--muted);
+        font-size: 0.72rem;
+      }
+      .fc1 {
+        top: -26px;
+        right: 6%;
+      }
+      .fc2 {
+        bottom: -24px;
+        left: -6%;
+        animation-delay: 2.2s;
+      }
+      @keyframes bob {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+      }
+
+      /* ================= STATS / ABOUT / SERVICES ================= */
+      .stats-wrap {
+        margin-top: -58px;
+        position: relative;
+        z-index: 5;
+      }
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        background: #fff;
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        overflow: hidden;
+      }
+      .stat {
+        padding: 26px 18px;
+        text-align: center;
+        border-right: 1px solid var(--line);
+      }
+      .stat:last-child {
+        border-right: 0;
+      }
+      .stat b {
+        display: block;
+        font-family: var(--head);
+        font-size: 2rem;
+        color: var(--teal-800);
+      }
+      .stat b i {
+        font-style: normal;
+        color: var(--gold);
+      }
+      .stat span {
+        font-size: 0.85rem;
+        color: var(--muted);
+      }
+      .about-grid {
+        display: grid;
+        grid-template-columns: 1fr 1.15fr;
+        gap: 52px;
+        align-items: center;
+      }
+      .about-visual {
+        position: relative;
+        background: linear-gradient(150deg, var(--teal-900), var(--teal-600));
+        border-radius: 24px;
+        padding: 44px 36px;
+        color: #fff;
+        overflow: hidden;
+      }
+      .about-visual::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: radial-gradient(
+          rgba(255, 255, 255, 0.12) 1.4px,
+          transparent 1.4px
+        );
+        background-size: 26px 26px;
+      }
+      .about-visual svg {
+        width: 74px;
+        height: 74px;
+        margin-bottom: 16px;
+        position: relative;
+      }
+      .about-visual h3 {
+        font-family: var(--head);
+        font-size: 1.4rem;
+        position: relative;
+      }
+      .about-visual p {
+        color: #d7e8ec;
+        font-size: 0.92rem;
+        margin-top: 8px;
+        position: relative;
+      }
+      .av-badge {
+        position: absolute;
+        right: 18px;
+        bottom: 18px;
+        background: linear-gradient(135deg, var(--gold), var(--gold-2));
+        color: #241c02;
+        font-family: var(--head);
+        font-weight: 700;
+        font-size: 0.75rem;
+        padding: 9px 14px;
+        border-radius: 12px;
+      }
+      .about-copy h2 {
+        font-family: var(--head);
+        font-size: clamp(1.5rem, 3vw, 2.1rem);
+        color: var(--teal-900);
+        margin-bottom: 14px;
+      }
+      .about-copy > p {
+        color: var(--muted);
+        margin-bottom: 22px;
+      }
+      .tick-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px 22px;
+      }
+      .tick-list li {
+        display: flex;
+        gap: 10px;
+        font-size: 0.92rem;
+        font-weight: 500;
+      }
+      .tick-list li::before {
+        content: "✔";
+        flex: none;
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        background: rgba(23, 162, 166, 0.14);
+        color: var(--teal-500);
+        font-size: 0.72rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2px;
+      }
+      .services {
+        background: var(--bg-soft);
+      }
+      .cards-3 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+      }
+      .s-card {
+        background: #fff;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        padding: 28px;
+        transition: 0.3s;
+      }
+      .s-card:hover {
+        transform: translateY(-6px);
+        box-shadow: var(--shadow);
+        border-color: rgba(23, 162, 166, 0.4);
+      }
+      .s-icon {
+        width: 56px;
+        height: 56px;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.6rem;
+        background: linear-gradient(
+          135deg,
+          rgba(14, 77, 92, 0.12),
+          rgba(201, 162, 39, 0.18)
+        );
+        margin-bottom: 16px;
+      }
+      .s-card h3 {
+        font-family: var(--head);
+        font-size: 1.05rem;
+        color: var(--teal-900);
+        margin-bottom: 8px;
+      }
+      .s-card p {
+        font-size: 0.9rem;
+        color: var(--muted);
+      }
+
+      /* ================= DESTINATIONS ================= */
+      .filters {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+      }
+      .filter-btn {
+        font-family: var(--head);
+        font-weight: 600;
+        font-size: 0.85rem;
+        padding: 10px 20px;
+        border-radius: 999px;
+        border: 1.5px solid var(--line);
+        background: #fff;
+        color: var(--muted);
+        cursor: pointer;
+        transition: 0.25s;
+      }
+      .filter-btn:hover {
+        border-color: var(--teal-500);
+        color: var(--teal-800);
+      }
+      .filter-btn.active {
+        background: var(--teal-800);
+        border-color: var(--teal-800);
+        color: #fff;
+      }
+      .dest-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        gap: 24px;
+      }
+      .dest-card {
+        background: #fff;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        padding: 24px;
+        display: flex;
+        flex-direction: column;
+        transition: 0.3s;
+      }
+      .dest-card:hover {
+        transform: translateY(-6px);
+        box-shadow: var(--shadow);
+        border-color: rgba(201, 162, 39, 0.5);
+      }
+      .dest-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 14px;
+      }
+      .flag {
+        width: 44px;
+        height: 30px;
+        object-fit: cover;
+        border-radius: 6px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
+      }
+      .tag {
+        font-family: var(--head);
+        font-weight: 600;
+        font-size: 0.68rem;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        padding: 5px 11px;
+        border-radius: 999px;
+      }
+      .tag-study {
+        background: #e0f4f4;
+        color: #0e4d5c;
+      }
+      .tag-work {
+        background: #fbf3dc;
+        color: #8a6d1a;
+      }
+      .tag-business {
+        background: #e7f0fb;
+        color: #1f4e79;
+      }
+      .dest-card h3 {
+        font-family: var(--head);
+        font-size: 1.08rem;
+        color: var(--teal-900);
+        line-height: 1.35;
+      }
+      .dest-card > p {
+        font-size: 0.88rem;
+        color: var(--muted);
+        margin: 8px 0 12px;
+      }
+      .mini {
+        margin-bottom: 18px;
+      }
+      .mini li {
+        font-size: 0.85rem;
+        padding: 4px 0 4px 24px;
+        position: relative;
+      }
+      .mini li::before {
+        content: "✔";
+        position: absolute;
+        left: 0;
+        color: var(--gold);
+        font-size: 0.8rem;
+      }
+      .dest-actions {
+        margin-top: auto;
+        display: flex;
+        gap: 10px;
+      }
+
+      /* ================= ELIGIBILITY CHECKER ================= */
+      .checkers {
+        background: var(--bg-soft);
+      }
+      .checker-wrap {
+        max-width: 860px;
+        margin: 0 auto;
+        background: #fff;
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        box-shadow: var(--shadow);
+        padding: 36px;
+      }
+      .c-progress {
+        margin-bottom: 26px;
+      }
+      .c-progress .bar {
+        height: 8px;
+        border-radius: 99px;
+        background: var(--line);
+        overflow: hidden;
+      }
+      .c-progress .bar i {
+        display: block;
+        height: 100%;
+        width: 0;
+        background: linear-gradient(90deg, var(--teal-500), var(--gold));
+        border-radius: 99px;
+        transition: width 0.35s;
+      }
+      .c-q {
+        font-family: var(--head);
+        font-size: 1.15rem;
+        color: var(--teal-900);
+        margin-bottom: 20px;
+      }
+      .c-opts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+      }
+      .c-opt {
+        text-align: left;
+        font-family: var(--head);
+        font-weight: 600;
+        font-size: 0.95rem;
+        padding: 18px;
+        border: 1.5px solid var(--line);
+        border-radius: 14px;
+        background: var(--bg-soft);
+        cursor: pointer;
+        transition: 0.2s;
+        color: var(--ink);
+        line-height: 1.5;
+      }
+      .c-opt small {
+        display: block;
+        font-weight: 500;
+        color: var(--muted);
+        font-size: 0.8rem;
+        margin-top: 2px;
+      }
+      .c-opt:hover {
+        border-color: var(--teal-500);
+      }
+      .c-opt.sel {
+        border-color: var(--gold);
+        background: #fbf6e7;
+        box-shadow: 0 0 0 3px rgba(201, 162, 39, 0.18);
+      }
+      .c-nav {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 26px;
+      }
+      .gauge {
+        height: 14px;
+        border-radius: 99px;
+        background: var(--line);
+        overflow: hidden;
+        margin: 14px 0 6px;
+      }
+      .gauge i {
+        display: block;
+        height: 100%;
+        border-radius: 99px;
+        background: linear-gradient(90deg, var(--teal-500), var(--gold));
+        transition: width 0.8s;
+      }
+      .rec {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 16px;
+        margin-top: 12px;
+        flex-wrap: wrap;
+      }
+      .rec b {
+        font-family: var(--head);
+        color: var(--teal-900);
+        font-size: 0.95rem;
+      }
+      .rec p {
+        font-size: 0.86rem;
+        color: var(--muted);
+        width: 100%;
+        margin: 0;
+      }
+      .rec a,
+      .rec button {
+        margin-left: auto;
+      }
+      .lvl {
+        font-family: var(--head);
+        font-size: 0.68rem;
+        font-weight: 700;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        padding: 5px 10px;
+        border-radius: 99px;
+      }
+      .lv-strong {
+        background: #dff3e4;
+        color: #1e7a3c;
+      }
+      .lv-good {
+        background: #e0f4f4;
+        color: #0e4d5c;
+      }
+      .lv-possible {
+        background: #fbf3dc;
+        color: #8a6d1a;
+      }
+      .sum-chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin: 16px 0 20px;
+      }
+      .sum-chips span {
+        font-size: 0.78rem;
+        background: var(--bg-soft);
+        border: 1px solid var(--line);
+        border-radius: 99px;
+        padding: 5px 12px;
+        color: var(--muted);
+      }
+
+      /* ================= PROCESS / ASSIST / QUOTES / FAQ / CTA ================= */
+      .process {
+        background: var(--bg-soft);
+      }
+      .steps {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+      }
+      .step {
+        background: #fff;
+        border-radius: var(--radius);
+        padding: 26px;
+        border: 1px solid var(--line);
+      }
+      .step b {
+        display: inline-flex;
+        width: 44px;
+        height: 44px;
+        border-radius: 12px;
+        background: linear-gradient(135deg, var(--teal-800), var(--teal-600));
+        color: #fff;
+        font-family: var(--head);
+        font-size: 1.1rem;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 14px;
+      }
+      .step h3 {
+        font-family: var(--head);
+        font-size: 1rem;
+        color: var(--teal-900);
+        margin-bottom: 6px;
+      }
+      .step p {
+        font-size: 0.88rem;
+        color: var(--muted);
+      }
+      .assist {
+        background: linear-gradient(120deg, var(--teal-900), var(--teal-800));
+        color: #fff;
+        border-radius: 24px;
+        padding: 44px 40px;
+      }
+      .assist h3 {
+        font-family: var(--head);
+        font-size: 1.35rem;
+        margin-bottom: 8px;
+      }
+      .assist h3 span {
+        color: var(--gold-2);
+      }
+      .assist > p {
+        color: #cfe3e8;
+        font-size: 0.92rem;
+        margin-bottom: 26px;
+      }
+      .assist-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+      .assist-item {
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        border-radius: 14px;
+        padding: 20px;
+      }
+      .assist-item .a-ic {
+        font-size: 1.5rem;
+        margin-bottom: 8px;
+      }
+      .assist-item h4 {
+        font-family: var(--head);
+        font-size: 0.98rem;
+        margin-bottom: 4px;
+      }
+      .assist-item p {
+        font-size: 0.84rem;
+        color: #cfe3e8;
+      }
+      .quotes {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+      }
+      .quote {
+        background: #fff;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        padding: 26px;
+        position: relative;
+      }
+      .quote::before {
+        content: "“";
+        position: absolute;
+        top: 8px;
+        right: 20px;
+        font-family: var(--head);
+        font-size: 4rem;
+        color: rgba(201, 162, 39, 0.25);
+        line-height: 1;
+      }
+      .quote p {
+        font-size: 0.92rem;
+        color: var(--muted);
+        font-style: italic;
+        margin-bottom: 16px;
+      }
+      .q-who {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+      .q-av {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, var(--teal-800), var(--teal-500));
+        color: #fff;
+        font-family: var(--head);
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .q-who b {
+        font-family: var(--head);
+        font-size: 0.9rem;
+        color: var(--teal-900);
+        display: block;
+      }
+      .q-who span {
+        font-size: 0.78rem;
+        color: var(--muted);
+      }
+      .faq-wrap {
+        max-width: 820px;
+        margin: 0 auto;
+      }
+      .faq-item {
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        background: #fff;
+        margin-bottom: 14px;
+        overflow: hidden;
+      }
+      .faq-q {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 16px;
+        background: none;
+        border: 0;
+        padding: 18px 22px;
+        font-family: var(--head);
+        font-weight: 600;
+        font-size: 0.98rem;
+        color: var(--teal-900);
+        cursor: pointer;
+        text-align: left;
+      }
+      .faq-q .pm {
+        flex: none;
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        background: rgba(201, 162, 39, 0.15);
+        color: var(--gold);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1rem;
+        transition: 0.3s;
+      }
+      .faq-item.open .pm {
+        transform: rotate(45deg);
+      }
+      .faq-a {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.35s ease;
+      }
+      .faq-a p {
+        padding: 0 22px 20px;
+        color: var(--muted);
+        font-size: 0.92rem;
+      }
+      .cta-band {
+        background: linear-gradient(120deg, var(--teal-800), var(--teal-600));
+        border-radius: 24px;
+        padding: 52px 40px;
+        color: #fff;
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+      }
+      .cta-band::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-image: radial-gradient(
+          rgba(255, 255, 255, 0.12) 1.4px,
+          transparent 1.4px
+        );
+        background-size: 28px 28px;
+      }
+      .cta-band h2 {
+        font-family: var(--head);
+        font-size: clamp(1.4rem, 3vw, 2rem);
+        position: relative;
+      }
+      .cta-band p {
+        color: #d7e8ec;
+        margin: 10px 0 26px;
+        position: relative;
+      }
+
+      /* ================= CONTACT / FOOTER ================= */
+      .contact {
+        background: var(--bg-soft);
+      }
+      .contact-grid {
+        display: grid;
+        grid-template-columns: 1fr 1.1fr;
+        gap: 40px;
+        align-items: start;
+      }
+      .c-card {
+        background: #fff;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        padding: 30px;
+      }
+      .c-item {
+        display: flex;
+        gap: 16px;
+        padding: 14px 0;
+        border-bottom: 1px dashed var(--line);
+      }
+      .c-item:last-of-type {
+        border-bottom: 0;
+      }
+      .c-ic {
+        flex: none;
+        width: 46px;
+        height: 46px;
+        border-radius: 12px;
+        background: linear-gradient(
+          135deg,
+          rgba(14, 77, 92, 0.12),
+          rgba(201, 162, 39, 0.2)
+        );
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.25rem;
+      }
+      .c-item h4 {
+        font-family: var(--head);
+        font-size: 0.92rem;
+        color: var(--teal-900);
+      }
+      .c-item p,
+      .c-item a {
+        font-size: 0.9rem;
+        color: var(--muted);
+      }
+      .c-item a:hover {
+        color: var(--teal-600);
+      }
+      .c-phones {
+        display: flex;
+        flex-direction: column;
+        gap: 2px;
+      }
+      .c-social {
+        display: flex;
+        gap: 10px;
+        margin-top: 18px;
+      }
+      .c-social a {
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        background: var(--teal-800);
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.8rem;
+        font-family: var(--head);
+        font-weight: 700;
+        transition: 0.25s;
+      }
+      .c-social a:hover {
+        background: var(--gold);
+        color: #241c02;
+        transform: translateY(-3px);
+      }
+      .map-frame {
+        margin-top: 22px;
+        border-radius: 14px;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        line-height: 0;
+      }
+      .map-frame iframe {
+        width: 100%;
+        height: 230px;
+        border: 0;
+      }
+      .form-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+      }
+      .f-field {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+      }
+      .f-field.full {
+        grid-column: 1/-1;
+      }
+      .f-field label {
+        font-family: var(--head);
+        font-weight: 600;
+        font-size: 0.82rem;
+        color: var(--teal-900);
+      }
+      .f-field input,
+      .f-field select,
+      .f-field textarea {
+        font-family: var(--body);
+        font-size: 0.92rem;
+        padding: 12px 14px;
+        border: 1.5px solid var(--line);
+        border-radius: 10px;
+        background: var(--bg-soft);
+        color: var(--ink);
+        outline: none;
+        transition: 0.25s;
+        width: 100%;
+      }
+      .f-field input:focus,
+      .f-field select:focus,
+      .f-field textarea:focus {
+        border-color: var(--teal-500);
+        background: #fff;
+        box-shadow: 0 0 0 3px rgba(23, 162, 166, 0.15);
+      }
+      .f-field textarea {
+        resize: vertical;
+        min-height: 110px;
+      }
+      .form-note {
+        font-size: 0.78rem;
+        color: var(--muted);
+        margin-top: 10px;
+      }
+      footer {
+        background: var(--teal-950);
+        color: #a9c4cb;
+      }
+      .f-grid {
+        display: grid;
+        grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
+        gap: 36px;
+        padding: 60px 0 40px;
+      }
+      .f-grid h4 {
+        font-family: var(--head);
+        color: #fff;
+        font-size: 1rem;
+        margin-bottom: 16px;
+      }
+      .f-grid p {
+        font-size: 0.88rem;
+      }
+      .f-links li {
+        margin-bottom: 9px;
+      }
+      .f-links a {
+        font-size: 0.88rem;
+        cursor: pointer;
+      }
+      .f-links a:hover {
+        color: var(--gold-2);
+      }
+      .f-contact li {
+        display: flex;
+        gap: 10px;
+        font-size: 0.88rem;
+        margin-bottom: 10px;
+      }
+      .f-brand {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 14px;
+      }
+      .f-brand .brand-name {
+        color: #fff;
+      }
+      .f-bottom {
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        padding: 20px 0;
+        font-size: 0.8rem;
+        display: flex;
+        justify-content: space-between;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+
+      /* ================= FLOATS + MODAL ================= */
+      .wa-float {
+        position: fixed;
+        right: 22px;
+        bottom: 22px;
+        z-index: 90;
+        width: 58px;
+        height: 58px;
+        border-radius: 50%;
+        background: #25d366;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 10px 26px rgba(37, 211, 102, 0.45);
+        transition: 0.25s;
+      }
+      .wa-float:hover {
+        transform: scale(1.08);
+      }
+      .wa-float svg {
+        width: 30px;
+        height: 30px;
+        fill: #fff;
+      }
+      .top-float {
+        position: fixed;
+        right: 26px;
+        bottom: 92px;
+        z-index: 90;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: var(--teal-800);
+        color: #fff;
+        border: 0;
+        font-size: 1.1rem;
+        cursor: pointer;
+        opacity: 0;
+        pointer-events: none;
+        transition: 0.3s;
+      }
+      .top-float.show {
+        opacity: 1;
+        pointer-events: auto;
+      }
+      .top-float:hover {
+        background: var(--gold);
+        color: #241c02;
+      }
+      .modal {
+        position: fixed;
+        inset: 0;
+        z-index: 200;
+        display: none;
+      }
+      .modal.open {
+        display: block;
+      }
+      .modal-backdrop {
+        position: absolute;
+        inset: 0;
+        background: rgba(4, 24, 29, 0.65);
+        backdrop-filter: blur(3px);
+      }
+      .modal-card {
+        position: relative;
+        max-width: 880px;
+        margin: 36px auto;
+        background: #fff;
+        border-radius: 20px;
+        max-height: calc(100vh - 60px);
+        overflow: auto;
+        padding: 34px;
+        animation: up 0.35s ease;
+      }
+      @keyframes up {
+        from {
+          opacity: 0;
+          transform: translateY(26px);
+        }
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+      .modal-close {
+        position: absolute;
+        top: 14px;
+        right: 14px;
+        width: 38px;
+        height: 38px;
+        border-radius: 50%;
+        border: 0;
+        background: var(--bg-soft);
+        color: var(--teal-900);
+        font-size: 1.3rem;
+        cursor: pointer;
+        transition: 0.25s;
+      }
+      .modal-close:hover {
+        background: var(--teal-800);
+        color: #fff;
+      }
+      .modal-head {
+        display: flex;
+        gap: 18px;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        padding-right: 40px;
+      }
+      .modal-head img {
+        width: 56px;
+        height: 38px;
+        object-fit: cover;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        margin-top: 6px;
+      }
+      .modal-head h3 {
+        font-family: var(--head);
+        font-size: 1.35rem;
+        color: var(--teal-900);
+        margin: 6px 0 4px;
+      }
+      .modal-head p {
+        font-size: 0.92rem;
+        color: var(--muted);
+      }
+      .modal-cols {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 22px;
+        margin-bottom: 24px;
+      }
+      .modal-cols h4 {
+        font-family: var(--head);
+        font-size: 0.95rem;
+        color: var(--teal-900);
+        margin-bottom: 10px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid rgba(201, 162, 39, 0.35);
+      }
+      .modal-cols li {
+        font-size: 0.88rem;
+        padding: 5px 0 5px 24px;
+        position: relative;
+        color: var(--muted);
+      }
+      .modal-cols li::before {
+        content: "✔";
+        position: absolute;
+        left: 0;
+        color: var(--teal-500);
+        font-size: 0.78rem;
+      }
+      .modal-cta {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+
+      /* ================= REVEAL + RESPONSIVE ================= */
+      .reveal {
+        opacity: 0;
+        transform: translateY(26px);
+        transition:
+          opacity 0.7s ease,
+          transform 0.7s ease;
+      }
+      .reveal.in {
+        opacity: 1;
+        transform: none;
+      }
+      @media (max-width: 992px) {
+        .hero .container {
+          grid-template-columns: 1fr;
+          padding-bottom: 110px;
+        }
+        .hero-visual {
+          max-width: 520px;
+        }
+        .stats {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .stat:nth-child(2) {
+          border-right: 0;
+        }
+        .stat:nth-child(1),
+        .stat:nth-child(2) {
+          border-bottom: 1px solid var(--line);
+        }
+        .about-grid,
+        .contact-grid {
+          grid-template-columns: 1fr;
+        }
+        .cards-3,
+        .steps,
+        .quotes,
+        .assist-grid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .f-grid {
+          grid-template-columns: 1fr 1fr;
+        }
+        .nav-links {
+          position: fixed;
+          top: 0;
+          right: -290px;
+          width: 280px;
+          height: 100vh;
+          background: #fff;
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 90px 28px 28px;
+          gap: 8px;
+          box-shadow: -10px 0 40px rgba(0, 0, 0, 0.15);
+          transition: right 0.35s;
+          z-index: 99;
+        }
+        .nav-links.open {
+          right: 0;
+        }
+        .nav-links a {
+          display: block;
+          width: 100%;
+          font-size: 1rem;
+          padding: 12px 0;
+          border-bottom: 1px solid var(--line);
+        }
+        .nav-toggle {
+          display: block;
+          z-index: 101;
+        }
+        .nav-cta .btn {
+          display: none;
+        }
+      }
+      @media (max-width: 600px) {
+        .section {
+          padding: 64px 0;
+        }
+        .cards-3,
+        .steps,
+        .quotes,
+        .assist-grid,
+        .form-grid,
+        .tick-list,
+        .c-opts {
+          grid-template-columns: 1fr;
+        }
+        .fc1,
+        .fc2 {
+          display: none;
+        }
+        .modal-card {
+          margin: 14px;
+          padding: 24px;
+        }
+        .modal-cols {
+          grid-template-columns: 1fr;
+        }
+        .tb-right {
+          display: none;
+        }
+        .cta-band,
+        .assist {
+          padding: 36px 22px;
+        }
+        .checker-wrap {
+          padding: 24px;
+        }
+        .rec a,
+        .rec button {
+          margin-left: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ============ TOP BAR ============ -->
+    <div class="topbar">
+      <div class="container">
+        <div class="tb-left">
+          <a href="tel:+923303696062">📞 0330-3696062</a>
+          <a href="tel:+923182345080">📞 0318-2345080</a>
+          <a href="tel:+923337256256">📞 0333-7256256</a>
+          <a href="mailto:alveraconsultancy@gmail.com"
+            >✉️ alveraconsultancy@gmail.com</a
+          >
+          <a href="https://wa.me/923303696062" target="_blank" rel="noopener"
+            >💬 WhatsApp</a
+          >
+        </div>
+        <div class="tb-right">
+          <span>🇮🇹 🇩🇪 🇨🇦 🇰🇷 🇪🇸 🇺🇸 🇸🇪 🇳🇿 — 11 Countries</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============ HEADER ============ -->
+    <header>
+      <div class="container nav">
+        <a href="#home" class="brand" aria-label="Alvera Consultancy home">
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <defs>
+              <linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#0E4D5C" />
+                <stop offset="1" stop-color="#17A2A6" />
+              </linearGradient>
+            </defs>
+            <path d="M32 6 L56 58 H45.5 L32 26 L18.5 58 H8 Z" fill="url(#lg)" />
+            <path
+              d="M18 45 Q32 54 46 45"
+              stroke="#C9A227"
+              stroke-width="4.5"
+              fill="none"
+              stroke-linecap="round"
+            />
+          </svg>
+          <span class="brand-name">Alvera<span>CONSULTANCY</span></span>
+        </a>
+        <nav class="nav-links" id="navLinks">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#destinations">Destinations</a>
+          <a href="#checker">Free Check</a>
+          <a href="#faq">FAQs</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="nav-cta">
+          <a href="#checker" class="btn btn-gold btn-sm">Free Assessment</a>
+          <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- ============ HERO ============ -->
+      <section class="hero" id="home">
+        <div class="container">
+          <div>
+            <span class="kicker">Alvera Consultancy · Karachi</span>
+            <h1>
+              Get Your <em>Degrees Abroad</em> — Study, Work &amp; Settle
+              Overseas
+            </h1>
+            <p class="lead">
+              Free &amp; supported university education, 100% regional
+              scholarships, MBBS &amp; MD admissions, skilled-work pathways and
+              business immigration — guided end-to-end by experts, with
+              <b>no hidden charges</b>.
+            </p>
+            <div class="chips">
+              <span class="chip"><b>✔</b> No University Fees</span>
+              <span class="chip"><b>✔</b> Hostel &amp; Meals Included</span>
+              <span class="chip"><b>✔</b> Till 45% Eligible</span>
+              <span class="chip"><b>✔</b> Free Counseling</span>
+            </div>
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-gold">Book Free Counseling →</a>
+              <a href="#checker" class="btn btn-ghost"
+                >🎯 Check My Eligibility — Free</a
+              >
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="float-chip fc1">
+              💶 €7,000–12,000 / year<small
+                >Italy Regional Scholarship Stipend</small
+              >
+            </div>
+            <div class="float-chip fc2">
+              🍁 PNP = +600 Points<small>Canada Express Entry</small>
+            </div>
+            <div class="path-card">
+              <div class="pc-label">Featured Pathway</div>
+              <h3 id="pcTitle"></h3>
+              <p id="pcDesc"></p>
+              <div class="path-dots" id="pcDots"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ STATS ============ -->
+      <div class="stats-wrap">
+        <div class="container">
+          <div class="stats reveal">
+            <div class="stat">
+              <b><span data-count="11">0</span><i>+</i></b
+              ><span>Countries Covered</span>
+            </div>
+            <div class="stat">
+              <b><span data-count="13">0</span><i>+</i></b
+              ><span>Active Programs</span>
+            </div>
+            <div class="stat">
+              <b><span data-count="4">0</span></b
+              ><span>Continents</span>
+            </div>
+            <div class="stat">
+              <b><span data-count="100">0</span><i>%</i></b
+              ><span>Free First Assessment</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============ ABOUT ============ -->
+      <section class="section" id="about">
+        <div class="container about-grid">
+          <div class="about-visual reveal">
+            <svg viewBox="0 0 64 64" aria-hidden="true">
+              <path
+                d="M32 6 L56 58 H45.5 L32 26 L18.5 58 H8 Z"
+                fill="#fff"
+                opacity=".92"
+              />
+              <path
+                d="M18 45 Q32 54 46 45"
+                stroke="#E3C15C"
+                stroke-width="4.5"
+                fill="none"
+                stroke-linecap="round"
+              />
+            </svg>
+            <h3>Your Gateway to Global Education &amp; Immigration</h3>
+            <p>
+              Trusted guidance from Karachi to the world — admissions,
+              scholarships, visas and relocation under one roof.
+            </p>
+            <div class="av-badge">ZERO HIDDEN CHARGES</div>
+          </div>
+          <div class="about-copy reveal">
+            <span class="kicker">Who We Are</span>
+            <h2>A Consultancy Built on Transparency &amp; Results</h2>
+            <p>
+              Alvera Consultancy helps students and professionals unlock
+              opportunities worldwide — from free &amp; supported education in
+              Italy to fully funded scholarships in Spain and Korea, PR pathways
+              in Canada, work routes in Germany, Sweden and New Zealand, and
+              business &amp; investment immigration across Europe. From first
+              counseling to landing abroad, we manage your journey.
+            </p>
+            <ul class="tick-list">
+              <li>Free initial counseling &amp; eligibility check</li>
+              <li>Transparent — no hidden charges</li>
+              <li>Bank statement assistance available</li>
+              <li>CIMEA payment assistance</li>
+              <li>Embassy appointment booking help</li>
+              <li>Hostel &amp; meal placement support</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ SERVICES ============ -->
+      <section class="section services" id="services">
+        <div class="container">
+          <div class="sec-head reveal">
+            <span class="kicker">Our Services</span>
+            <h2>Everything You Need to Move Abroad</h2>
+            <p>
+              One team for admissions, scholarships, visas, documentation and
+              relocation support.
+            </p>
+          </div>
+          <div class="cards-3">
+            <div class="s-card reveal">
+              <div class="s-icon">🎓</div>
+              <h3>University Admissions</h3>
+              <p>
+                Bachelors, Masters &amp; PhD placements in top-ranked
+                universities across Europe, Asia and North America.
+              </p>
+            </div>
+            <div class="s-card reveal">
+              <div class="s-icon">🏆</div>
+              <h3>Scholarships &amp; Funding</h3>
+              <p>
+                100% regional scholarships, GKS Korea, excellence awards — with
+                stipends, hostels and meal plans.
+              </p>
+            </div>
+            <div class="s-card reveal">
+              <div class="s-icon">🩺</div>
+              <h3>MBBS &amp; MD Admissions</h3>
+              <p>
+                Full English-taught Medicine &amp; Surgery (MD/MBBS) programs
+                with internationally recognised degrees.
+              </p>
+            </div>
+            <div class="s-card reveal">
+              <div class="s-icon">🛂</div>
+              <h3>Work &amp; Skilled Migration</h3>
+              <p>
+                Canada Express Entry &amp; PNP, Germany Chancenkarte &amp;
+                Ausbildung, Sweden Job Seeker, NZ RSE, USA EB2-NIW.
+              </p>
+            </div>
+            <div class="s-card reveal">
+              <div class="s-icon">💼</div>
+              <h3>Business &amp; Investment</h3>
+              <p>
+                Company registration (D.O.O.) in Serbia &amp; Latvia, investment
+                residency in Bulgaria, family relocation permits.
+              </p>
+            </div>
+            <div class="s-card reveal">
+              <div class="s-icon">📄</div>
+              <h3>Visa Filing &amp; Documentation</h3>
+              <p>
+                Complete file preparation, bank statement assistance, CIMEA
+                support and embassy appointment booking.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ DESTINATIONS ============ -->
+      <section class="section" id="destinations">
+        <div class="container">
+          <div class="sec-head reveal">
+            <span class="kicker">Destinations &amp; Programs</span>
+            <h2>Where Do You Want to Go?</h2>
+            <p>
+              Open any program for full benefits &amp; eligibility — or run the
+              free checker below.
+            </p>
+          </div>
+          <div class="filters reveal">
+            <button class="filter-btn active" data-filter="all">
+              All Programs
+            </button>
+            <button class="filter-btn" data-filter="study">
+              🎓 Study Abroad
+            </button>
+            <button class="filter-btn" data-filter="work">
+              🛂 Work &amp; PR
+            </button>
+            <button class="filter-btn" data-filter="business">
+              💼 Business &amp; Investment
+            </button>
+          </div>
+          <div class="dest-grid" id="destGrid"></div>
+        </div>
+      </section>
+
+      <!-- ============ ELIGIBILITY CHECKER ============ -->
+      <section class="section checkers" id="checker">
+        <div class="container">
+          <div class="sec-head reveal">
+            <span class="kicker">Free Tool</span>
+            <h2>Which Pathway Fits You?</h2>
+            <p>
+              Answer a few quick questions — get your score, matched programs,
+              and send the result straight to our counselors on WhatsApp.
+            </p>
+          </div>
+          <div class="checker-wrap reveal">
+            <div class="c-progress" id="cProgress">
+              <div class="bar"><i></i></div>
+            </div>
+            <div id="cPanel"></div>
+            <div class="c-nav">
+              <button
+                class="btn btn-outline"
+                id="cBack"
+                style="visibility: hidden"
+              >
+                ← Back
+              </button>
+              <button
+                class="btn btn-teal"
+                id="cNext"
+                style="visibility: hidden"
+              >
+                Next →
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PROCESS ============ -->
+      <section class="section process" id="process">
+        <div class="container">
+          <div class="sec-head reveal">
+            <span class="kicker">How It Works</span>
+            <h2>Your Journey in 6 Simple Steps</h2>
+          </div>
+          <div class="steps">
+            <div class="step reveal">
+              <b>1</b>
+              <h3>Free Counseling</h3>
+              <p>
+                Tell us your goals — we map the best country and program for
+                your profile.
+              </p>
+            </div>
+            <div class="step reveal">
+              <b>2</b>
+              <h3>Eligibility Assessment</h3>
+              <p>
+                We check your academics, experience, age and finances against
+                program criteria.
+              </p>
+            </div>
+            <div class="step reveal">
+              <b>3</b>
+              <h3>Documentation</h3>
+              <p>
+                Transcripts, statements and translations — plus bank statement
+                &amp; CIMEA assistance.
+              </p>
+            </div>
+            <div class="step reveal">
+              <b>4</b>
+              <h3>Application &amp; Offer</h3>
+              <p>
+                We apply to universities or programs and secure your admission
+                or nomination.
+              </p>
+            </div>
+            <div class="step reveal">
+              <b>5</b>
+              <h3>Visa &amp; Embassy</h3>
+              <p>
+                Embassy appointment booking, file preparation and interview
+                guidance.
+              </p>
+            </div>
+            <div class="step reveal">
+              <b>6</b>
+              <h3>Fly &amp; Settle</h3>
+              <p>
+                Pre-departure briefing, hostel &amp; meals setup, and
+                post-arrival support for you and your family.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ ASSISTANCE ============ -->
+      <section style="padding-top: 0">
+        <div class="container">
+          <div class="assist reveal">
+            <h3>⭐ <span>Special Assistance Services</span></h3>
+            <p>
+              Extra support where it matters most — included with our supported
+              programs.
+            </p>
+            <div class="assist-grid">
+              <div class="assist-item">
+                <div class="a-ic">🏦</div>
+                <h4>Bank Statement Assistance</h4>
+                <p>
+                  Guidance and support for the financial proof required by
+                  embassies and universities.
+                </p>
+              </div>
+              <div class="assist-item">
+                <div class="a-ic">📜</div>
+                <h4>CIMEA Payment Assistance</h4>
+                <p>
+                  We help you secure your CIMEA verification smoothly for
+                  Italian university admissions.
+                </p>
+              </div>
+              <div class="assist-item">
+                <div class="a-ic">🛃</div>
+                <h4>Embassy Appointment Booking</h4>
+                <p>
+                  Booking help and full interview preparation for your visa
+                  appointment day.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ TESTIMONIALS (⚠️ SAMPLES — replace with genuine reviews) ============ -->
+      <section style="padding-bottom: 0">
+        <div class="container">
+          <div class="sec-head reveal">
+            <span class="kicker">Success Stories</span>
+            <h2>What Our Students Say</h2>
+          </div>
+          <div class="quotes">
+            <div class="quote reveal">
+              <p>
+                Alvera handled everything for my Italy admission — CIMEA, bank
+                statement guidance and even my embassy appointment. Hostel and
+                meals were included, exactly as promised.
+              </p>
+              <div class="q-who">
+                <div class="q-av">SA</div>
+                <div><b>S. Ahmed</b><span>Bachelors — Italy</span></div>
+              </div>
+            </div>
+            <div class="quote reveal">
+              <p>
+                I thought low percentages closed every door. Their team found me
+                a supported program where 45% was still eligible. Truly no
+                hidden charges.
+              </p>
+              <div class="q-who">
+                <div class="q-av">FK</div>
+                <div><b>F. Khan</b><span>Masters — Italy</span></div>
+              </div>
+            </div>
+            <div class="quote reveal">
+              <p>
+                From Express Entry profile to PNP nomination, my Canada process
+                was clear and fast. Family relocation permits were handled too.
+              </p>
+              <div class="q-who">
+                <div class="q-av">MR</div>
+                <div><b>M. Raza</b><span>Express Entry — Canada</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ FAQ ============ -->
+      <section class="section services" id="faq">
+        <div class="container">
+          <div class="sec-head reveal">
+            <span class="kicker">FAQs</span>
+            <h2>Frequently Asked Questions</h2>
+          </div>
+          <div class="faq-wrap reveal">
+            <div class="faq-item">
+              <button class="faq-q">
+                <span>Is the counseling really free?</span
+                ><span class="pm">+</span>
+              </button>
+              <div class="faq-a">
+                <p>
+                  Yes. Your first counseling and eligibility assessment with
+                  Alvera Consultancy is completely free — call, WhatsApp or
+                  submit the form and our team will guide you.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q">
+                <span
+                  >I have low marks / percentages. Can I still study
+                  abroad?</span
+                ><span class="pm">+</span>
+              </button>
+              <div class="faq-a">
+                <p>
+                  Yes. For our supported Italy programs, students with
+                  percentages as low as <b>45%</b> are eligible. Book a free
+                  assessment and we will confirm your options.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q">
+                <span>Are there really programs with no tuition fees?</span
+                ><span class="pm">+</span>
+              </button>
+              <div class="faq-a">
+                <p>
+                  Yes. Through 100% regional scholarships and supported
+                  education schemes, university fees can be fully covered —
+                  including hostel, meals and even a yearly stipend of
+                  €7,000–€12,000 in Italy.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q">
+                <span
+                  >Do you help with bank statements and embassy
+                  appointments?</span
+                ><span class="pm">+</span>
+              </button>
+              <div class="faq-a">
+                <p>
+                  Absolutely. Our special assistance services include bank
+                  statement support, CIMEA payment assistance and embassy
+                  appointment booking help.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q">
+                <span>What documents do I need to get started?</span
+                ><span class="pm">+</span>
+              </button>
+              <div class="faq-a">
+                <p>
+                  Usually a valid passport, academic transcripts/degrees, CV and
+                  photographs. Exact requirements depend on the country and
+                  program — we guide you step by step.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <button class="faq-q">
+                <span>How do I start?</span><span class="pm">+</span>
+              </button>
+              <div class="faq-a">
+                <p>
+                  Call or WhatsApp <b>0330-3696062</b>, <b>0318-2345080</b> or
+                  <b>0333-7256256</b> — or submit the contact form below. Our
+                  team will schedule your free counseling session.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ CTA ============ -->
+      <section style="padding-bottom: 0">
+        <div class="container">
+          <div class="cta-band reveal">
+            <h2>Not Sure Where You Qualify?</h2>
+            <p>
+              Run the free eligibility checker — answer 4–5 questions and see
+              your matched programs instantly.
+            </p>
+            <a href="#checker" class="btn btn-gold"
+              >Run the Free Eligibility Checker →</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ CONTACT ============ -->
+      <section class="section contact" id="contact">
+        <div class="container">
+          <div class="sec-head reveal">
+            <span class="kicker">Contact Us</span>
+            <h2>Book Your Free Counseling Session</h2>
+            <p>
+              Reach us on call or WhatsApp, or send an enquiry — we respond
+              quickly.
+            </p>
+          </div>
+          <div class="contact-grid">
+            <div class="reveal">
+              <div class="c-card">
+                <div class="c-item">
+                  <div class="c-ic">📞</div>
+                  <div>
+                    <h4>Phone</h4>
+                    <div class="c-phones">
+                      <a href="tel:+923303696062">0330-3696062</a>
+                      <a href="tel:+923182345080">0318-2345080</a>
+                      <a href="tel:+923337256256">0333-7256256</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-item">
+                  <div class="c-ic">💬</div>
+                  <div>
+                    <h4>WhatsApp</h4>
+                    <div class="c-phones">
+                      <a
+                        href="https://wa.me/923303696062"
+                        target="_blank"
+                        rel="noopener"
+                        >0330-3696062</a
+                      >
+                      <a
+                        href="https://wa.me/923182345080"
+                        target="_blank"
+                        rel="noopener"
+                        >0318-2345080</a
+                      >
+                      <a
+                        href="https://wa.me/923337256256"
+                        target="_blank"
+                        rel="noopener"
+                        >0333-7256256</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="c-item">
+                  <div class="c-ic">✉️</div>
+                  <div>
+                    <h4>Email</h4>
+                    <p>
+                      <a href="mailto:alveraconsultancy@gmail.com"
+                        >alveraconsultancy@gmail.com</a
+                      >
+                    </p>
+                  </div>
+                </div>
+                <div class="c-item">
+                  <div class="c-ic">📍</div>
+                  <div>
+                    <h4>Head Office</h4>
+                    <p>
+                      Shop No. 04, R-101, Sector 15/A-4, Buffer Zone, Main
+                      Rashid Minhas Road, Karachi, Pakistan
+                    </p>
+                  </div>
+                </div>
+                <div class="c-social">
+                  <a
+                    href="https://facebook.com/AlveraConsultancy"
+                    target="_blank"
+                    rel="noopener"
+                    title="Facebook"
+                    >f</a
+                  >
+                  <a
+                    href="https://instagram.com/AlveraConsultancy"
+                    target="_blank"
+                    rel="noopener"
+                    title="Instagram"
+                    >Ig</a
+                  >
+                  <a
+                    href="https://linkedin.com/company/AlveraConsultancy"
+                    target="_blank"
+                    rel="noopener"
+                    title="LinkedIn"
+                    >in</a
+                  >
+                  <a
+                    href="https://x.com/AlveroConsultancy"
+                    target="_blank"
+                    rel="noopener"
+                    title="X"
+                    >X</a
+                  >
+                </div>
+              </div>
+              <div class="map-frame">
+                <iframe
+                  title="Alvera Consultancy location"
+                  loading="lazy"
+                  src="https://www.google.com/maps?q=Sector%2015-A%2F4%20Buffer%20Zone%20Rashid%20Minhas%20Road%20Karachi&output=embed"
+                ></iframe>
+              </div>
+            </div>
+            <div class="c-card reveal">
+              <!-- FormSubmit: submit once, then click the activation email sent to your Gmail -->
+              <form
+                action="https://formsubmit.co/alveraconsultancy@gmail.com"
+                method="POST"
+              >
+                <input
+                  type="hidden"
+                  name="_subject"
+                  value="New Website Enquiry — Alvera Consultancy"
+                />
+                <input type="hidden" name="_template" value="table" />
+                <input type="hidden" name="_captcha" value="false" />
+                <input
+                  type="hidden"
+                  name="_autoresponse"
+                  value="Thank you for contacting Alvera Consultancy! Our team will contact you shortly. Call/WhatsApp: 0330-3696062, 0318-2345080, 0333-7256256."
+                />
+                <input type="text" name="_honey" style="display: none" />
+                <div class="form-grid">
+                  <div class="f-field">
+                    <label>Full Name *</label
+                    ><input
+                      type="text"
+                      name="name"
+                      required
+                      placeholder="Your name"
+                    />
+                  </div>
+                  <div class="f-field">
+                    <label>Phone / WhatsApp *</label
+                    ><input
+                      type="tel"
+                      name="phone"
+                      required
+                      placeholder="03XX-XXXXXXX"
+                    />
+                  </div>
+                  <div class="f-field full">
+                    <label>Email</label
+                    ><input
+                      type="email"
+                      name="email"
+                      placeholder="you@example.com"
+                    />
+                  </div>
+                  <div class="f-field">
+                    <label>I'm Interested In</label>
+                    <select name="interest">
+                      <option>Study Abroad (Bachelors/Masters/PhD)</option>
+                      <option>MBBS / MD (Medicine)</option>
+                      <option>Scholarships (Italy / Spain / Korea)</option>
+                      <option>Work & Skilled Migration / PR</option>
+                      <option>Business & Investment Immigration</option>
+                      <option>Not sure — need counseling</option>
+                    </select>
+                  </div>
+                  <div class="f-field">
+                    <label>Preferred Country</label>
+                    <select name="country">
+                      <option>Any / Recommend me</option>
+                      <option>Italy</option>
+                      <option>Spain</option>
+                      <option>South Korea</option>
+                      <option>Germany</option>
+                      <option>Canada</option>
+                      <option>Sweden</option>
+                      <option>New Zealand</option>
+                      <option>USA</option>
+                      <option>Serbia</option>
+                      <option>Latvia</option>
+                      <option>Bulgaria</option>
+                    </select>
+                  </div>
+                  <div class="f-field full">
+                    <label>Your Message</label
+                    ><textarea
+                      name="message"
+                      placeholder="Tell us about your education, experience or questions..."
+                    ></textarea>
+                  </div>
+                  <div class="f-field full">
+                    <button
+                      type="submit"
+                      class="btn btn-gold"
+                      style="width: 100%"
+                    >
+                      Submit Enquiry → Get Free Guidance
+                    </button>
+                  </div>
+                </div>
+                <p class="form-note">
+                  By submitting, you agree to be contacted by Alvera Consultancy
+                  regarding your enquiry.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer>
+      <div class="container">
+        <div class="f-grid">
+          <div>
+            <div class="f-brand">
+              <svg
+                viewBox="0 0 64 64"
+                width="36"
+                height="36"
+                aria-hidden="true"
+              >
+                <path
+                  d="M32 6 L56 58 H45.5 L32 26 L18.5 58 H8 Z"
+                  fill="#fff"
+                  opacity=".9"
+                />
+                <path
+                  d="M18 45 Q32 54 46 45"
+                  stroke="#C9A227"
+                  stroke-width="4.5"
+                  fill="none"
+                  stroke-linecap="round"
+                />
+              </svg>
+              <span class="brand-name">Alvera<span>CONSULTANCY</span></span>
+            </div>
+            <p>
+              Karachi-based education &amp; immigration consultancy — free &amp;
+              supported university education, global scholarships, skilled-work
+              pathways and business immigration, delivered with transparency and
+              zero hidden charges.
+            </p>
+          </div>
+          <div>
+            <h4>Quick Links</h4>
+            <ul class="f-links">
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#destinations">Destinations</a></li>
+              <li><a href="#checker">Free Eligibility Check</a></li>
+              <li><a href="#faq">FAQs</a></li>
+              <li><a href="#contact">Free Assessment</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>All Destinations</h4>
+            <ul class="f-links" id="fDest"></ul>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <ul class="f-contact">
+              <li>
+                📞 <a href="tel:+923303696062">0330-3696062</a> ·
+                <a href="tel:+923182345080">0318-2345080</a> ·
+                <a href="tel:+923337256256">0333-7256256</a>
+              </li>
+              <li>
+                💬
+                <a
+                  href="https://wa.me/923303696062"
+                  target="_blank"
+                  rel="noopener"
+                  >0330-3696062</a
+                >
+                ·
+                <a
+                  href="https://wa.me/923182345080"
+                  target="_blank"
+                  rel="noopener"
+                  >0318-2345080</a
+                >
+                ·
+                <a
+                  href="https://wa.me/923337256256"
+                  target="_blank"
+                  rel="noopener"
+                  >0333-7256256</a
+                >
+              </li>
+              <li>
+                ✉️
+                <a href="mailto:alveraconsultancy@gmail.com"
+                  >alveraconsultancy@gmail.com</a
+                >
+              </li>
+              <li>
+                📍 Shop No. 04, R-101, Sector 15/A-4, Buffer Zone, Main Rashid
+                Minhas Road, Karachi
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="f-bottom">
+          <span
+            >© <span id="year"></span> Alvera Consultancy. All rights
+            reserved.</span
+          >
+          <span
+            >Alvera Consultancy is a private consultancy. Final visa decisions
+            rest with the respective embassies &amp; authorities.</span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <!-- ============ FLOATING BUTTONS ============ -->
+    <a
+      class="wa-float"
+      href="https://wa.me/923303696062?text=Hi%20Alvera%20Consultancy!%20I%20want%20a%20free%20assessment%20for%20studying%2Fworking%20abroad."
+      target="_blank"
+      rel="noopener"
+      aria-label="Chat on WhatsApp"
+    >
+      <svg viewBox="0 0 24 24">
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+        />
+      </svg>
+    </a>
+    <button class="top-float" id="topFloat" aria-label="Back to top">↑</button>
+
+    <!-- ============ PROGRAM MODAL ============ -->
+    <div class="modal" id="modal" aria-hidden="true">
+      <div class="modal-backdrop" data-close></div>
+      <div class="modal-card" role="dialog" aria-modal="true">
+        <button class="modal-close" data-close aria-label="Close">✕</button>
+        <div class="modal-head">
+          <img
+            id="mFlag"
+            src="https://flagcdn.com/w80/it.png"
+            alt="Country flag"
+          />
+          <div>
+            <span class="tag tag-study" id="mTag">Program</span>
+            <h3 id="mTitle">Program</h3>
+            <p id="mDesc"></p>
+          </div>
+        </div>
+        <div class="modal-cols">
+          <div>
+            <h4>✅ Key Benefits</h4>
+            <ul id="mBenefits"></ul>
+          </div>
+          <div>
+            <h4>📋 Eligibility &amp; Requirements</h4>
+            <ul id="mCriteria"></ul>
+          </div>
+        </div>
+        <div class="modal-cta">
+          <a class="btn btn-gold" href="tel:+923303696062"
+            >📞 Call 0330-3696062</a
+          >
+          <a
+            class="btn btn-teal"
+            id="mWa"
+            href="#"
+            target="_blank"
+            rel="noopener"
+            >💬 WhatsApp Enquiry</a
+          >
+          <a class="btn btn-outline" href="#contact" data-close
+            >Book Free Assessment</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <script>
+      /* ================= DATA (from your flyers) ================= */
+      const DESTINATIONS = [
+        {
+          id: "italy-free",
+          country: "Italy",
+          flag: "it",
+          category: "study",
+          tag: "Study · Scholarship",
+          title: "100% Regional Scholarship",
+          desc: "Free & supported university education — no fees, no hidden charges, hostel & meals included, plus a yearly stipend.",
+          benefits: [
+            "No university fees & no hidden charges",
+            "100% Regional Scholarship support",
+            "Free accommodation (hostel placement)",
+            "Free meal vouchers (university canteens)",
+            "Annual stipend: €7,000 – €12,000",
+            "Secure your CIMEA with our assistance",
+          ],
+          criteria: [
+            "Bachelors, Masters & PhD admissions open",
+            "Low percentage holders (till 45%) also eligible",
+            "Bank statement assistance available",
+            "Embassy appointment booking help",
+          ],
+        },
+        {
+          id: "italy-mbbs",
+          country: "Italy",
+          flag: "it",
+          category: "study",
+          tag: "Study · Medicine (MD/MBBS)",
+          title: "MBBS & MD Universities",
+          desc: "Global admissions in top-ranked universities — Medicine & MD focus with full English-taught programs.",
+          benefits: [
+            "Free & supported education (no university fees)",
+            "Full English-taught programs",
+            "Internationally recognised MD degree",
+            "Hostel & meals included",
+          ],
+          criteria: [
+            "Medicine & Surgery (MD/MBBS) — Bachelors, Masters & PhD",
+            "Bank statement assistance available",
+            "CIMEA payment assistance",
+            "Embassy appointment booking help",
+          ],
+        },
+        {
+          id: "korea-gks",
+          country: "South Korea",
+          flag: "kr",
+          category: "study",
+          tag: "Study · GKS Scholarship",
+          title: "GKS Study Visa & Scholarships",
+          desc: "Global Korea Scholarship (GKS) & university-specific programs with free Korean language training.",
+          benefits: [
+            "100% GKS & university scholarships",
+            "Free Korean language training (part of program)",
+            "Top-ranked Korean universities",
+            "Post-graduation work options (D-10 visa)",
+          ],
+          criteria: [
+            "Bachelor's/Master's degree (for GKS Graduate)",
+            "High School Diploma (for GKS Undergraduate)",
+            "TOPIK preferred — some programs are in English",
+            "IELTS/TOEFL for English-taught programs",
+            "Strong study plan & statements",
+          ],
+        },
+        {
+          id: "spain-100",
+          country: "Spain",
+          flag: "es",
+          category: "study",
+          tag: "Study · Fully Funded",
+          title: "100% Scholarship for Pakistani Students",
+          desc: "100% funded university programs & excellence scholarships with living allowances in Europe.",
+          benefits: [
+            "100% tuition fees covered",
+            "Fully funded accommodation stipend",
+            "Monthly living allowance & meal plan",
+            "European student visa & post-grad work access",
+          ],
+          criteria: [
+            "Admission in a recognised Spanish university",
+            "High School Diploma (UG) / Bachelor's (Graduate)",
+            "Spanish proficiency (DELE) or English (if taught in English)",
+            "Minimum academic GPA (e.g., 3.0/4.0)",
+            "Strong motivation letter & LORs",
+          ],
+        },
+        {
+          id: "canada-ee",
+          country: "Canada",
+          flag: "ca",
+          category: "work",
+          tag: "Work · Permanent Residence",
+          title: "Express Entry & PNP Programs",
+          desc: "Direct permanent residence pathways for skilled workers & DAE students — fast-track to Canada.",
+          benefits: [
+            "Direct PR pathway (fast-track system)",
+            "Provincial Nomination — PNP 600 extra points",
+            "DAE (Diploma of Associate Engineer) accepted",
+            "Family relocation permits",
+          ],
+          criteria: [
+            "Bachelor's/Master's degree (any field)",
+            "3-Year DAE (Diploma of Associate Engineer)",
+            "English (IELTS/CELPIP) or French proficiency",
+            "Minimum 1 year skilled work experience",
+            "Strong Express Entry profile (CRS score)",
+          ],
+        },
+        {
+          id: "germany-chancenkarte",
+          country: "Germany",
+          flag: "de",
+          category: "work",
+          tag: "Work · Job Seeker",
+          title: "Chancenkarte Opportunity Card",
+          desc: "Direct pathways for skilled job seekers & professionals — live in Germany while you job-hunt.",
+          benefits: [
+            "Job-seeker permit (up to 1 year for in-person search)",
+            "Access to German job market (multiple sectors)",
+            "Work part-time (up to 20 hrs/week) while searching",
+            "Path to residence & full work permit after a job",
+          ],
+          criteria: [
+            "Minimum 2 years vocational training or a degree",
+            "DAE / technical qualification can earn points",
+            "German (B1) or English (C1) proficiency",
+            "Relevant professional experience (2+ years)",
+            "Age under 35 (or 35–40 earns points)",
+          ],
+        },
+        {
+          id: "germany-ausbildung",
+          country: "Germany",
+          flag: "de",
+          category: "work",
+          tag: "Work · Vocational Training",
+          title: "Dual Vocational Training (Ausbildung)",
+          desc: "Direct pathways for Ausbildung trainees & young professionals — earn while you train in Germany.",
+          benefits: [
+            "Dual training & work permit (integrated approach)",
+            "State-specific placements (various German regions)",
+            "Ausbildung training allowance (paid during placement)",
+            "After Ausbildung: path to residence & work",
+          ],
+          criteria: [
+            "Minimum Intermediate (F.A., F.Sc.) or equivalent",
+            "3-Year DAE / technical qualification is a plus",
+            "German proficiency (A2/B1) certified by Goethe/Telc",
+            "Relevant skill-set or High School Diploma (18–28 yrs)",
+            "Strong letter of motivation & CV for placement",
+          ],
+        },
+        {
+          id: "nz-rse",
+          country: "New Zealand",
+          flag: "nz",
+          category: "work",
+          tag: "Work · Seasonal (RSE)",
+          title: "Seasonal Work Visa (RSE)",
+          desc: "Direct pathways for horticulture & viticulture workers with registered RSE employers.",
+          benefits: [
+            "Up to 7–9 months work & stay permit",
+            "Paid employment (guaranteed minimum hours)",
+            "Employer-sponsored roles (registered RSE employers)",
+            "Access to NZ regions — picking, packing, pruning",
+          ],
+          criteria: [
+            "Age generally 18–35 years (country agreement)",
+            "Citizen of a country with an RSE agreement",
+            "Valid passport extending past visa",
+            "Health & character requirements (police & medical)",
+            "Genuine intention to return home after work",
+          ],
+        },
+        {
+          id: "sweden-jsv",
+          country: "Sweden",
+          flag: "se",
+          category: "work",
+          tag: "Work · Job Seeker",
+          title: "Job Seeker Visa & Residence Permit",
+          desc: "Direct pathways for highly qualified professionals & graduates to find work in Sweden.",
+          benefits: [
+            "Up to 9 months job-search residence permit",
+            "For highly qualified level (min. 2-year degree)",
+            "Family relocation permits (after securing a job)",
+            "Path to work permit & permanent residence",
+          ],
+          criteria: [
+            "Minimum Bachelor's or higher (recognised institution)",
+            "DAE / technical qualification may earn points",
+            "Proof of comprehensive health insurance for Sweden",
+            "Proof of sufficient financial funds (kr/€)",
+            "Valid passport extending past permit end date",
+          ],
+        },
+        {
+          id: "usa-eb2niw",
+          country: "USA",
+          flag: "us",
+          category: "work",
+          tag: "Work · Green Card",
+          title: "EB2-NIW Immigration",
+          desc: "National Interest Waiver (Self-Petitioner) — a direct route to a US Green Card without employer sponsorship.",
+          benefits: [
+            "Self-petitioner (no employer sponsor needed)",
+            "No Labour Certification (PERM) required",
+            "Advanced degree or exceptional ability pathway",
+            "Direct route to Green Card (national interest cases)",
+          ],
+          criteria: [
+            "Ph.D., Masters, or equivalent",
+            "5+ years professional experience",
+            "Substantial merit & national importance",
+            "Unique expertise in critical fields (AI, Health, etc.)",
+          ],
+        },
+        {
+          id: "serbia-biz",
+          country: "Serbia",
+          flag: "rs",
+          category: "business",
+          tag: "Business · Company Registration",
+          title: "Business Immigration",
+          desc: "Move to Serbia via company registration & family relocation — your gateway to the European market.",
+          benefits: [
+            "Fast-track incorporation",
+            "European market access",
+            "Family residence permits",
+            "Reduced tax benefits",
+          ],
+          criteria: [
+            "Company Owner (D.O.O.)",
+            "Director Position",
+            "Self-Employment",
+          ],
+        },
+        {
+          id: "latvia-biz",
+          country: "Latvia",
+          flag: "lv",
+          category: "business",
+          tag: "Business · Company Registration",
+          title: "Business Immigration",
+          desc: "Business immigration to Latvia via company registration & family relocation in the EU.",
+          benefits: [
+            "Fast-track incorporation",
+            "European market access",
+            "Family residence permits",
+            "Reduced tax benefits",
+          ],
+          criteria: [
+            "Company Owner (D.O.O.)",
+            "Director Position",
+            "Self-Employment",
+          ],
+        },
+        {
+          id: "bulgaria-inv",
+          country: "Bulgaria",
+          flag: "bg",
+          category: "business",
+          tag: "Investment · EU Residency",
+          title: "Investment Immigration",
+          desc: "EU residency through strategic investment programs & family relocation — with low 10% tax rates.",
+          benefits: [
+            "Strategic investment choices (EUR-denominated)",
+            "EU permanent residence pathway (after qualified investment)",
+            "Family relocation permits",
+            "Low corporate & personal tax rates (10%)",
+          ],
+          criteria: [
+            "Government bonds (non-interest)",
+            "High-growth company investment (qualified SME)",
+            "Prime real estate projects (direct or REIT)",
+          ],
+        },
+      ];
+      /* Primary WhatsApp line (drives floating button, program buttons & checker results) */
+      const WA_PHONE = "923303696062";
+      const flagImg = (f, w = 80) =>
+        "https://flagcdn.com/w" + w + "/" + f + ".png";
+      const waLink = (txt) =>
+        "https://wa.me/" + WA_PHONE + "?text=" + encodeURIComponent(txt);
+      const byId = (id) => DESTINATIONS.find((d) => d.id === id);
+
+      /* ================= RENDER CARDS + FOOTER LIST ================= */
+      const grid = document.getElementById("destGrid");
+      grid.innerHTML = DESTINATIONS.map(
+        (d) => `
+  <article class="dest-card reveal" data-cat="${d.category}">
+    <div class="dest-top">
+      <img class="flag" loading="lazy" alt="${d.country} flag" src="${flagImg(d.flag)}" srcset="${flagImg(d.flag, 160)} 2x">
+      <span class="tag tag-${d.category}">${d.tag}</span>
+    </div>
+    <h3>${d.country} — ${d.title}</h3>
+    <p>${d.desc}</p>
+    <ul class="mini">${d.benefits
+      .slice(0, 3)
+      .map((b) => `<li>${b}</li>`)
+      .join("")}</ul>
+    <div class="dest-actions">
+      <button class="btn btn-teal btn-sm" data-open="${d.id}">View Details</button>
+      <a class="btn btn-outline btn-sm" target="_blank" rel="noopener" href="${waLink("Hi Alvera Consultancy! I'm interested in the " + d.country + " — " + d.title + " program.")}">WhatsApp</a>
+    </div>
+  </article>`,
+      ).join("");
+
+      document.getElementById("fDest").innerHTML = DESTINATIONS.map(
+        (d) =>
+          `<li><a data-open="${d.id}" href="javascript:void(0)">${d.country} — ${d.title}</a></li>`,
+      ).join("");
+
+      /* ================= FILTERS ================= */
+      document.querySelectorAll(".filter-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          document
+            .querySelectorAll(".filter-btn")
+            .forEach((b) => b.classList.remove("active"));
+          btn.classList.add("active");
+          const f = btn.dataset.filter;
+          document.querySelectorAll(".dest-card").forEach((c) => {
+            c.style.display = f === "all" || c.dataset.cat === f ? "" : "none";
+          });
+        });
+      });
+
+      /* ================= MODAL ================= */
+      const modal = document.getElementById("modal");
+      function openModal(id) {
+        const d = byId(id);
+        if (!d) return;
+        document.getElementById("mFlag").src = flagImg(d.flag);
+        const mTag = document.getElementById("mTag");
+        mTag.textContent = d.tag;
+        mTag.className = "tag tag-" + d.category;
+        document.getElementById("mTitle").textContent =
+          d.country + " — " + d.title;
+        document.getElementById("mDesc").textContent = d.desc;
+        document.getElementById("mBenefits").innerHTML = d.benefits
+          .map((b) => `<li>${b}</li>`)
+          .join("");
+        document.getElementById("mCriteria").innerHTML = d.criteria
+          .map((c) => `<li>${c}</li>`)
+          .join("");
+        document.getElementById("mWa").href = waLink(
+          "Hi Alvera Consultancy! I'm interested in the " +
+            d.country +
+            " — " +
+            d.title +
+            " program. Please share eligibility details and next steps.",
+        );
+        modal.classList.add("open");
+        modal.setAttribute("aria-hidden", "false");
+        document.body.style.overflow = "hidden";
+      }
+      function closeModal() {
+        modal.classList.remove("open");
+        modal.setAttribute("aria-hidden", "true");
+        document.body.style.overflow = "";
+      }
+      document.addEventListener("click", (e) => {
+        const t = e.target.closest("[data-open]");
+        if (t) {
+          e.preventDefault();
+          openModal(t.dataset.open);
+          return;
+        }
+        if (e.target.closest("[data-close]")) closeModal();
+      });
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") closeModal();
+      });
+
+      /* ================= MOBILE NAV + SCROLLSPY + TOP ================= */
+      const navToggle = document.getElementById("navToggle"),
+        navLinks = document.getElementById("navLinks");
+      navToggle.addEventListener("click", () => {
+        navToggle.classList.toggle("open");
+        navLinks.classList.toggle("open");
+      });
+      navLinks.querySelectorAll("a").forEach((a) =>
+        a.addEventListener("click", () => {
+          navToggle.classList.remove("open");
+          navLinks.classList.remove("open");
+        }),
+      );
+      const topFloat = document.getElementById("topFloat");
+      window.addEventListener("scroll", () => {
+        topFloat.classList.toggle("show", window.scrollY > 600);
+        const links = document.querySelectorAll(".nav-links a");
+        let cur = "home";
+        document.querySelectorAll("section[id]").forEach((sec) => {
+          if (window.scrollY >= sec.offsetTop - 120) cur = sec.id;
+        });
+        links.forEach((a) =>
+          a.classList.toggle("active", a.getAttribute("href") === "#" + cur),
+        );
+      });
+      topFloat.addEventListener("click", () =>
+        window.scrollTo({ top: 0, behavior: "smooth" }),
+      );
+
+      /* ================= HERO ROTATOR ================= */
+      const NOTES = [
+        {
+          t: "Italy — 100% Regional Scholarship",
+          d: "No university fees, free hostel & meals, plus €7,000–12,000 yearly stipend.",
+        },
+        {
+          t: "Canada — Express Entry & PNP",
+          d: "Direct PR pathway · Provincial Nomination adds 600 points · DAE accepted.",
+        },
+        {
+          t: "Germany — Ausbildung",
+          d: "Get paid while you train · path to residence & work after completion.",
+        },
+        {
+          t: "USA — EB2-NIW",
+          d: "Self-petition Green Card · no employer sponsor required.",
+        },
+        {
+          t: "Korea — GKS Scholarship",
+          d: "100% scholarship + free Korean language training at top-ranked universities.",
+        },
+      ];
+      const pcTitle = document.getElementById("pcTitle"),
+        pcDesc = document.getElementById("pcDesc"),
+        pcDots = document.getElementById("pcDots");
+      pcDots.innerHTML = NOTES.map(() => "<span></span>").join("");
+      let ni = 0;
+      function showNote(i) {
+        pcTitle.textContent = NOTES[i].t;
+        pcDesc.textContent = NOTES[i].d;
+        pcDots
+          .querySelectorAll("span")
+          .forEach((s, x) => s.classList.toggle("on", x === i));
+      }
+      showNote(0);
+      setInterval(() => {
+        ni = (ni + 1) % NOTES.length;
+        showNote(ni);
+      }, 3500);
+
+      /* ================= REVEAL + COUNTERS + FAQ ================= */
+      const io = new IntersectionObserver(
+        (es) =>
+          es.forEach((e) => {
+            if (e.isIntersecting) {
+              e.target.classList.add("in");
+              io.unobserve(e.target);
+            }
+          }),
+        { threshold: 0.12 },
+      );
+      document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
+
+      const cio = new IntersectionObserver(
+        (es) =>
+          es.forEach((en) => {
+            if (!en.isIntersecting) return;
+            const el = en.target,
+              end = +el.dataset.count,
+              t0 = performance.now();
+            (function tick(t) {
+              const p = Math.min((t - t0) / 1300, 1);
+              el.textContent = Math.round(end * (1 - Math.pow(1 - p, 3)));
+              if (p < 1) requestAnimationFrame(tick);
+            })(t0);
+            cio.unobserve(el);
+          }),
+        { threshold: 0.5 },
+      );
+      document
+        .querySelectorAll("[data-count]")
+        .forEach((el) => cio.observe(el));
+
+      document.querySelectorAll(".faq-item").forEach((item) => {
+        item.querySelector(".faq-q").addEventListener("click", () => {
+          const open = item.classList.contains("open");
+          document.querySelectorAll(".faq-item").forEach((i) => {
+            i.classList.remove("open");
+            i.querySelector(".faq-a").style.maxHeight = null;
+          });
+          if (!open) {
+            item.classList.add("open");
+            const a = item.querySelector(".faq-a");
+            a.style.maxHeight = a.scrollHeight + "px";
+          }
+        });
+      });
+
+      /* ================= ELIGIBILITY CHECKER =================
+   Weighted quiz → score 0-100 → rule engine (flyer criteria) → matched programs → WhatsApp lead */
+      const TRACK_NAMES = {
+        study: "Study Abroad",
+        work: "Work, PR & Skilled Migration",
+        business: "Business & Investment",
+      };
+      const QUESTIONS = {
+        study: [
+          {
+            id: "edu",
+            q: "What is your highest completed education?",
+            opts: [
+              "Matric / O-Levels",
+              "Intermediate (F.A / F.Sc)",
+              "Bachelor's Degree",
+              "Master's or above",
+            ],
+          },
+          {
+            id: "pct",
+            q: "Your most recent major result?",
+            opts: ["Below 45%", "45% – 60%", "60% – 70%", "Above 70%"],
+          },
+          {
+            id: "age",
+            q: "Your age group?",
+            opts: ["Under 20", "20 – 25", "26 – 32", "33 +"],
+          },
+          {
+            id: "eng",
+            q: "English proficiency?",
+            opts: [
+              "None yet",
+              "Basic (IELTS 5.5–6.0)",
+              "Good (6.5–7.0)",
+              "Strong (7.5+)",
+            ],
+          },
+          {
+            id: "funds",
+            q: "Funds you can show for your visa file?",
+            opts: ["Limited — need support options", "Moderate", "Strong"],
+          },
+        ],
+        work: [
+          {
+            id: "edu",
+            q: "Highest qualification?",
+            opts: [
+              "Matric",
+              "Intermediate / F.Sc",
+              "3-Year DAE / Technical Diploma",
+              "Bachelor's",
+              "Master's",
+              "PhD or equivalent",
+            ],
+          },
+          {
+            id: "exp",
+            q: "Skilled work experience?",
+            opts: ["None yet", "1 – 2 years", "3 – 5 years", "5 + years"],
+          },
+          {
+            id: "age",
+            q: "Your age group?",
+            opts: ["Under 20", "20 – 28", "29 – 40", "40 +"],
+          },
+          {
+            id: "lang",
+            q: "Language ability (English or German)?",
+            opts: [
+              "None yet",
+              "Basic",
+              "Good (IELTS 6.0+ / German A2–B1)",
+              "Strong (IELTS 7+ / German B2+)",
+            ],
+          },
+          {
+            id: "funds",
+            q: "Funds available for the process?",
+            opts: ["Limited", "Moderate", "Strong"],
+          },
+        ],
+        business: [
+          {
+            id: "capital",
+            q: "Investment capital available?",
+            opts: [
+              "Under $10,000",
+              "$10k – $50k",
+              "$50k – $200k",
+              "Above $200k",
+            ],
+          },
+          {
+            id: "bexp",
+            q: "Business / managerial experience?",
+            opts: ["None yet", "1 – 3 years", "3 + years"],
+          },
+          {
+            id: "family",
+            q: "Are you relocating with family?",
+            opts: ["Yes, spouse & children", "Planning later", "Just me"],
+          },
+          {
+            id: "goal2",
+            q: "Primary objective?",
+            opts: [
+              "Residency in Europe",
+              "Business expansion",
+              "Better tax & lifestyle",
+            ],
+          },
+        ],
+      };
+      /* Rule engines — thresholds mirror the qualifying criteria on your flyers */
+      function recStudy(a) {
+        const r = [];
+        r.push({
+          id: "italy-free",
+          level: "strong",
+          why:
+            a.funds === 0
+              ? "Zero tuition fees + yearly stipend — designed for limited budgets, and 45% holders are eligible."
+              : "Free tuition, hostel & meals plus a €7,000–12,000 annual stipend.",
+        });
+        if (a.pct >= 2)
+          r.push({
+            id: "italy-mbbs",
+            level: "good",
+            why: "Solid academics support competitive English-taught MD/MBBS admissions.",
+          });
+        if (a.edu >= 2)
+          r.push({
+            id: "korea-gks",
+            level: a.eng >= 2 ? "strong" : "good",
+            why: "Bachelor's/Master's fits the GKS Graduate stream — free Korean language training included.",
+          });
+        else if (a.edu >= 1)
+          r.push({
+            id: "korea-gks",
+            level: "possible",
+            why: "High School Diploma qualifies for the GKS Undergraduate stream.",
+          });
+        if (a.edu >= 1 && a.pct >= 2)
+          r.push({
+            id: "spain-100",
+            level: "good",
+            why: "100% tuition + living allowance — needs a solid GPA and strong motivation letter.",
+          });
+        return r;
+      }
+      function recWork(a) {
+        const r = [];
+        if (a.exp >= 1 && a.edu >= 2 && a.lang >= 1)
+          r.push({
+            id: "canada-ee",
+            level: a.age <= 2 ? "strong" : "good",
+            why: "1+ year skilled experience with DAE/degree accepted — PNP nomination adds 600 CRS points.",
+          });
+        if (a.edu >= 1 && a.exp >= 1 && a.age <= 2)
+          r.push({
+            id: "germany-chancenkarte",
+            level: a.lang >= 1 ? "strong" : "good",
+            why: "Points-based Opportunity Card — your age, qualification and experience all add points.",
+          });
+        if (a.age <= 1 && a.edu >= 1)
+          r.push({
+            id: "germany-ausbildung",
+            level: "strong",
+            why: "Ages 18–28 with Intermediate + German A2/B1 fit paid Ausbildung placements.",
+          });
+        if (a.edu >= 3 && a.lang >= 2 && a.exp >= 1)
+          r.push({
+            id: "sweden-jsv",
+            level: "good",
+            why: "Bachelor's+ degree and good English fit Sweden's 9-month job-seeker permit.",
+          });
+        if (a.age <= 1)
+          r.push({
+            id: "nz-rse",
+            level: "good",
+            why: "Ages 18–35 can access employer-sponsored seasonal RSE work — no degree required.",
+          });
+        if (a.edu >= 4 || a.exp >= 3)
+          r.push({
+            id: "usa-eb2niw",
+            level: "good",
+            why: "A Master's/PhD or 5+ years of expert work supports the EB2-NIW self-petition.",
+          });
+        return r;
+      }
+      function recBiz(a) {
+        const r = [];
+        r.push({
+          id: "serbia-biz",
+          level: a.capital >= 1 ? "strong" : "possible",
+          why: "Low-cost company formation (D.O.O.) with family residence permits — fastest entry point.",
+        });
+        if (a.capital >= 1)
+          r.push({
+            id: "latvia-biz",
+            level: "good",
+            why: "EU company registration with fast-track incorporation.",
+          });
+        r.push({
+          id: "bulgaria-inv",
+          level: a.capital >= 2 ? "strong" : "good",
+          why:
+            a.capital >= 2
+              ? "Investment tiers (bonds / SME / real estate) lead to the EU permanent residence pathway."
+              : "Explore EUR-denominated investment tiers with our advisors.",
+        });
+        return r;
+      }
+      const ENGINES = { study: recStudy, work: recWork, business: recBiz };
+      const LVL = { strong: 0, good: 1, possible: 2 };
+
+      let goal = null,
+        qi = 0,
+        ans = {},
+        done = false;
+      const cPanel = document.getElementById("cPanel"),
+        cProg = document.getElementById("cProgress");
+      const cBack = document.getElementById("cBack"),
+        cNext = document.getElementById("cNext");
+      const drawProg = (f) =>
+        (cProg.innerHTML =
+          '<div class="bar"><i style="width:' +
+          Math.round(f * 100) +
+          '%"></i></div>');
+
+      function start() {
+        goal = null;
+        qi = 0;
+        ans = {};
+        done = false;
+        cBack.style.visibility = "hidden";
+        cNext.style.visibility = "hidden";
+        drawProg(0.08);
+        cPanel.innerHTML =
+          '<span class="kicker">Step 1 · Choose your goal</span>' +
+          '<h3 class="c-q">What is your main goal?</h3><div class="c-opts">' +
+          '<button class="c-opt" data-goal="study">🎓 Study Abroad<small>Degrees, scholarships & MBBS/MD</small></button>' +
+          '<button class="c-opt" data-goal="work">🛂 Work, PR & Skilled Migration<small>Canada, Germany, Sweden, NZ, USA</small></button>' +
+          '<button class="c-opt" data-goal="business">💼 Business & Investment<small>Serbia, Latvia, Bulgaria</small></button>' +
+          '<button class="c-opt" data-goal="none">🤔 Not Sure<small>Let our counselors guide me</small></button></div>';
+        cPanel.querySelectorAll("[data-goal]").forEach(
+          (b) =>
+            (b.onclick = () => {
+              if (b.dataset.goal === "none") {
+                results(null);
+                return;
+              }
+              goal = b.dataset.goal;
+              qi = 0;
+              ans = {};
+              done = false;
+              cBack.style.visibility = "visible";
+              cNext.style.visibility = "visible";
+              renderQ();
+            }),
+        );
+      }
+      function renderQ() {
+        const qs = QUESTIONS[goal],
+          q = qs[qi];
+        drawProg((qi + 1) / (qs.length + 1));
+        cNext.textContent =
+          qi === qs.length - 1 ? "See My Results →" : "Next →";
+        cPanel.innerHTML =
+          '<span class="kicker">' +
+          TRACK_NAMES[goal] +
+          " · Question " +
+          (qi + 1) +
+          " of " +
+          qs.length +
+          "</span>" +
+          '<h3 class="c-q">' +
+          q.q +
+          '</h3><div class="c-opts">' +
+          q.opts
+            .map(
+              (o, i) =>
+                '<button class="c-opt' +
+                (ans[q.id] === i ? " sel" : "") +
+                '" data-i="' +
+                i +
+                '">' +
+                o +
+                "</button>",
+            )
+            .join("") +
+          "</div>";
+        cPanel.querySelectorAll(".c-opt").forEach(
+          (b) =>
+            (b.onclick = () => {
+              ans[q.id] = +b.dataset.i;
+              cPanel
+                .querySelectorAll(".c-opt")
+                .forEach((x) => x.classList.remove("sel"));
+              b.classList.add("sel");
+            }),
+        );
+      }
+      cBack.onclick = () => {
+        if (goal === null || done) {
+          start();
+          return;
+        }
+        if (qi > 0) {
+          qi--;
+          renderQ();
+        } else start();
+      };
+      cNext.onclick = () => {
+        if (goal === null || done) return;
+        const qs = QUESTIONS[goal];
+        if (ans[qs[qi].id] === undefined) {
+          alert("Please select an option to continue.");
+          return;
+        }
+        qi++;
+        qi < qs.length ? renderQ() : results(goal);
+      };
+      function results(g) {
+        done = true;
+        drawProg(1);
+        cBack.style.visibility = "hidden";
+        cNext.style.visibility = "hidden";
+        if (!g) {
+          cPanel.innerHTML =
+            '<h3 class="c-q">No problem — let our experts guide you</h3>' +
+            '<div class="modal-cta"><a class="btn btn-gold" target="_blank" rel="noopener" href="' +
+            waLink(
+              "Hi Alvera Consultancy! I'm not sure which pathway fits me. Please guide me.",
+            ) +
+            '">💬 WhatsApp a Counselor</a>' +
+            '<a class="btn btn-teal" href="#contact">Book Free Counseling</a>' +
+            '<button class="btn btn-outline" onclick="start()">↻ Start Over</button></div>';
+          return;
+        }
+        const qs = QUESTIONS[g];
+        const max = qs.reduce((s, q) => s + (q.opts.length - 1), 0);
+        const sum = qs.reduce((s, q) => s + (ans[q.id] || 0), 0);
+        const score = Math.round((sum / max) * 100);
+        const band =
+          score >= 70
+            ? { t: "Strong Profile", c: "lv-strong" }
+            : score >= 45
+              ? { t: "Promising", c: "lv-good" }
+              : { t: "Needs Guidance", c: "lv-possible" };
+        const recs = ENGINES[g](ans).sort(
+          (a, b) => LVL[a.level] - LVL[b.level],
+        );
+        const lines = qs.map((q) => q.q + " → " + q.opts[ans[q.id]]).join("\n");
+        const msg =
+          "Hi Alvera Consultancy! I used the website eligibility checker.\nGoal: " +
+          TRACK_NAMES[g] +
+          "\nPreliminary score: " +
+          score +
+          "/100\n" +
+          lines +
+          "\nPlease guide me on next steps.";
+        cPanel.innerHTML =
+          '<span class="kicker">Your Result · ' +
+          TRACK_NAMES[g] +
+          "</span>" +
+          '<h3 class="c-q">Preliminary Score: ' +
+          score +
+          '/100 &nbsp;<span class="lvl ' +
+          band.c +
+          '">' +
+          band.t +
+          "</span></h3>" +
+          '<div class="gauge"><i style="width:' +
+          score +
+          '%"></i></div>' +
+          '<div class="sum-chips">' +
+          qs.map((q) => "<span>" + q.opts[ans[q.id]] + "</span>").join("") +
+          "</div>" +
+          (recs.length
+            ? recs
+                .map((r) => {
+                  const d = byId(r.id);
+                  return (
+                    '<div class="rec"><span class="lvl lv-' +
+                    r.level +
+                    '">' +
+                    r.level +
+                    "</span><b>" +
+                    d.country +
+                    " — " +
+                    d.title +
+                    '</b><button class="btn btn-outline btn-sm" data-open="' +
+                    d.id +
+                    '">Details</button><p>' +
+                    r.why +
+                    "</p></div>"
+                  );
+                })
+                .join("")
+            : '<p style="color:var(--muted)">No strong automated match — our counselors often find options the checker can\'t see.</p>') +
+          '<div class="modal-cta" style="margin-top:22px">' +
+          '<a class="btn btn-gold" target="_blank" rel="noopener" href="' +
+          waLink(msg) +
+          '">💬 Send My Result on WhatsApp</a>' +
+          '<a class="btn btn-teal" href="#contact">Book Free Counseling</a>' +
+          '<button class="btn btn-outline" onclick="start()">↻ Start Over</button></div>' +
+          '<p class="form-note">This checker is a preliminary guide only. Final eligibility is confirmed during your free counseling — requirements can change with embassy &amp; university policies.</p>';
+      }
+      start();
+
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
